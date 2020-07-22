@@ -16,7 +16,7 @@ let output = document.getElementById('output');
 let input = document.getElementById('input');
 function sound() {
   var soundwav = new Audio("../audio/button-09.wav");
-  var soundmp3 = new Audio("../audio/button-o9.mp3");
+  var soundmp3 = new Audio("../audio/button-09.mp3");
   soundmp3.play();
   soundwav.play();
 }
