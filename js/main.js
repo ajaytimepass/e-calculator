@@ -15,10 +15,10 @@ toggleSwitch.addEventListener("change", switchTheme, false);
 let output = document.getElementById('output');
 let input = document.getElementById('input');
 function sound() {
-  var soundwav = (new Audio("../audio/button-09.wav")).canPlayType("audio/ogg; codecs=vorbis");
-  var soundmp3 = (new Audio("../audio/button-09.mp3")).canPlayType("audio/ogg; codecs=vorbis");
-  soundmp3.play();
+  var soundwav = new Audio("../audio/button-09.wav");
+  var soundmp3 = new Audio("../audio/button-09.mp3");
   soundwav.play();
+  soundmp3.play();
 }
 function calculate(data) {
   
